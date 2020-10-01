@@ -52,7 +52,8 @@ html, body {
   .header {
     margin-bottom: 10px;
     display: flex;
-    align-content:flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
   }
   
   body > * {
@@ -114,6 +115,7 @@ html, body {
   }
   
   .description {
+    flex: 1 0 125px;
     justify-content: center;
   }
   
