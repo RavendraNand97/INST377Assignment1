@@ -117,13 +117,13 @@ html, body {
   .description {
     background-color: rgb(247, 242, 242);
     justify-content: center;
-    align-items: flex-end;
   }
   
   .roles {
     background-color: rgb(247, 242, 242);
     justify-content: center;    
-  }
+    align-items: flex-end;
+}
 
   .aside {
     display: flex;
