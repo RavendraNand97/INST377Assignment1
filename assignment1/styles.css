@@ -112,36 +112,18 @@ html, body {
   
   .main {
     display: flex;
+    max-width: 960px;
+    justify-content: center;
   }
   
   .description {
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
     justify-content: center;
   }
   
   .roles {
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(206, 206, 206);
     justify-content: center;    
     align-items: flex-end;
 }
-
-  .aside {
-    display: flex;
-    flex-flow: row wrap;
-    flex: 2;
-  }
-  
-  .aside a {
-    display: flex;
-    flex-basis: 50%;
-  }
-  
-  .aside img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .footer {
-    margin-top: 10px;
-  }
-  
