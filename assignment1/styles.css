@@ -115,11 +115,13 @@ html, body {
   }
   
   .description {
-    flex: 1 0 125px;
+    background-color: rgb(247, 242, 242);
     justify-content: center;
+    align-items: flex-end;
   }
   
   .roles {
+    background-color: rgb(247, 242, 242);
     justify-content: center;    
   }
 
