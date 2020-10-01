@@ -11,9 +11,13 @@ html, body {
   }
   .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     
+  }
+  .wrapper {
+
   }
   
   
@@ -21,7 +25,7 @@ html, body {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
-    background-color: #680909;
+    background-color: #ebe3e3;
   }
   
   /* || typography */
@@ -57,10 +61,13 @@ html, body {
   /* || header layout */
   
   .header {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
   }
   
   body > * {
