@@ -56,7 +56,7 @@ html, body {
   }
   
   body > * {
-    background-color: red;
+    background-color: rgb(247, 241, 192);
     padding: 1%;
   }
   
@@ -124,7 +124,7 @@ html, body {
   .roles {
     justify-content: center;    
   }
-  
+
   .aside {
     display: flex;
     flex-flow: row wrap;
