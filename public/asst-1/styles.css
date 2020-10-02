@@ -99,7 +99,7 @@ html, body {
    border-radius: 4px;
    border-width: 1px;
    border-style: solid;
-   width: 195px;
+   width: 100px;
   }
   
   @media screen and (max-width: 1000px) {
