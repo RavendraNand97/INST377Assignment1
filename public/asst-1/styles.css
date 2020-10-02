@@ -101,7 +101,7 @@ html, body {
    border-style: solid;
    width: 195px;
   }
-
+  
   @media screen and (max-width: 1000px) {
     .container {
       justify-content: center;
