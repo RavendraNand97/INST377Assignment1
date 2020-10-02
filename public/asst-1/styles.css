@@ -1,7 +1,7 @@
 /* || General setup */
 
 html, body {
-    margin: 1;
+    margin: 0;
     padding: 0;
   }
   
@@ -14,7 +14,7 @@ html, body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     
   }
   .wrapper {
@@ -49,8 +49,6 @@ html, body {
     font-weight: 800;
   }
   
- 
-  
   /* || header layout */
   
   .header {
@@ -69,8 +67,6 @@ html, body {
     padding: 1%;
   }
   
-  
-  
   h1 {
     flex: 5;
     text-transform: uppercase;
@@ -82,9 +78,7 @@ html, body {
     height: 60px;
     padding-top: 20.15px;
   }
-  
 
-  
   /* || main layout */
   
   .main {
@@ -97,14 +91,24 @@ html, body {
     background-color: rgb(206, 206, 206);
     padding: 10px;
     justify-content: center;
-    flex: 1 0 auto;
+    flex: 0 1 auto;
+    margin-right: 15x;
   }
   
   .roles {
     background-color: rgb(206, 206, 206);
     justify-content: center;    
     align-items: flex-end;
-}
+  }
   .img{
     border-radius: 4px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .container {
+      justify-content: center;
+    }
+    .description {
+      flex: 1 0 auto;
+    }
   }
