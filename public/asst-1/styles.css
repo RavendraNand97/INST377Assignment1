@@ -59,6 +59,7 @@ html, body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: rgba(139, 11, 11, 0.5);
     align-items: center;
     
     
